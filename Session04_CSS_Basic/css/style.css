@@ -1,0 +1,19 @@
+#cssExternal {
+    color: brown;
+}
+
+.external {
+    color: chartreuse;
+}
+
+h2 {
+    color: yellow;
+}
+
+#cssInline {
+    color: violet;
+}
+
+#cssInternal {
+    color: aqua !important;
+}

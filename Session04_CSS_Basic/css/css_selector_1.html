@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ chọn - 1</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /* Định kiểu cho tất cả nội dung trong thẻ p có chữ màu đỏ */
+        p {
+            color: red;
+        }
+
+        aside p {
+            background-color: black;
+        }
+
+        aside>p {
+            font-size: 20px;
+        }
+
+        /* Tất cả nội dung h2 và p có font chữ là Arial */
+        h2,
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #zone01 {
+            color: yellow;
+        }
+
+        .zone02 {
+            color: red;
+        }
+
+        .zone03 {
+            font-size: 20px;
+        }
+    </style>
+    <h2>Rikkei Academy</h2>
+    <aside>
+        <p>Xin chào tất cả các bạn học viên Fukuoka</p>
+        <p>Chúc các bạn buổi tối vui vẻ</p>
+        <div>
+            <p>Các bạn học có vui không?</p>
+        </div>
+    </aside>
+    <h3 id="zone01">Bộ chọn theo id (#id)</h3>
+    <h3 class="zone02 zone03">Bộ chọn theo class - 1(.class)</h3>
+    <h3 class="zone02">Bộ chọn theo class - 2</h3>
+    <h3 class="zone02">Bộ chọn theo clas - 3</h3>
+
+</body>
+
+</html>

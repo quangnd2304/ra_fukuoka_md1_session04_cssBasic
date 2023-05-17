@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ chọn - 2</title>
+</head>
+
+<body>
+    <style>
+        /* Chọn duy nhất phần tử p liền sau div */
+        div+p {
+            color: red;
+        }
+
+        div~p {
+            background-color: yellow;
+        }
+
+        div #ra {
+            color: green;
+        }
+    </style>
+    <p>Luôn hạnh phúc</p>
+    <div>
+        <p id="ra">Rikkei Academy</p>
+        <p>Học viện đào tạo CNTT chất lượng Nhật Bản</p>
+    </div>
+    <p>Chúc các bạn thành công</p>
+    <p>RA luôn bên bạn</p>
+    <style>
+        a:link {
+            color: green;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        a:hover {
+            color: violet;
+        }
+
+        a:active {
+            color: red;
+        }
+    </style>
+    <a href="https://mazii.net/vi-VN/search">Rikkei Academy - Học viên CNTT</a>
+    <style>
+        [type="text"] {
+            background-color: yellow;
+        }
+    </style>
+    <input type="text" name="studentName" id="studentName" placeholder="Nhập vào tên sinh viên" />
+    <input type="password" name="pass" id="pass" placeholder="Nhập vào mật khẩu" />
+
+
+</body>
+
+</html>

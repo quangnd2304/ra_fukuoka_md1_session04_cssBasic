@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Nhúng CSS vào HTML</title>
+</head>
+
+<body>
+    <!-- Cách 1: Viết CSS inline - trực tiếp trong thẻ html - thuộc tính style -->
+    <h2 id="cssInline" style="color: green;">CSS Inline</h2>
+    <!-- Cách 2: Viết CSS internal - viết trong file html - thẻ style -->
+    <style>
+        #cssInternal {
+            color: red;
+        }
+    </style>
+    <h2 id="cssInternal">CSS Internal</h2>
+    <!-- Cách 3: Viết CSS external - viết ngoài file html - tạo file css -->
+    <h2 id="cssExternal" class=".external">CSS External</h2>
+</body>
+
+</html>
